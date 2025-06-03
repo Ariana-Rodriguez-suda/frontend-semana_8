@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class NotificationService {
-  private apiUrl = import.meta.env.VITE_API_URL + '/notifications';
+  private apiUrl = 'https://semana-8-pnat.onrender.com/notifications';
 
   constructor(private http: HttpClient) {}
 
